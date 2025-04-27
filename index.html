@@ -30,7 +30,6 @@
       padding: 0;
       margin: 0;
       letter-spacing: 3px;
-      /* Bold black outline */
       text-shadow: 
         -2px -2px 0 #000,  
         2px -2px 0 #000,  
@@ -60,7 +59,7 @@
 
     nav ul li a {
       text-decoration: none;
-      color: white;
+      color: #FFD700; /* Yellow nav tabs */
       font-size: 1.1rem;
       font-weight: bold;
       text-transform: uppercase;
@@ -69,7 +68,6 @@
       border-radius: 8px;
       transition: all 0.3s ease;
       white-space: nowrap;
-      /* New: black outline for nav words */
       text-shadow: 
         -1px -1px 0 #000,  
         1px -1px 0 #000,  
@@ -78,27 +76,36 @@
     }
 
     nav ul li a:hover {
-      color: #FFD700;
+      color: white;
       background-color: rgba(255, 255, 255, 0.2);
       border-color: #FFD700;
-      transform: scale(1.05);
+      transform: scale(1.08);
     }
 
-    footer {
+    /* New final heading styling */
+    .final-heading {
       text-align: center;
-      padding: 1rem;
+      margin: 4rem 1rem 2rem 1rem;
+    }
+
+    .final-heading h2 {
+      font-size: 2.5rem;
+      font-weight: 400;
       color: white;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: none;
-      font-size: 0.9rem;
+      margin: 0;
+      letter-spacing: 2px;
+      text-shadow: 
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,  
+        -2px 2px 0 #000,  
+        2px 2px 0 #000,
+        0px 0px 5px #000;
     }
   </style>
 </head>
 
 <body>
-  <!-- Title -->
+  <!-- Main Title -->
   <div class="logo-wrapper">
     <h1>La Crisis Climática en España</h1>
   </div>
@@ -115,13 +122,15 @@
     </ul>
   </nav>
 
-  <footer>
-    Proyecto final - Universidad de Virginia
-  </footer>
+  <!-- Final Heading -->
+  <div class="final-heading">
+    <h2>Proyecto Final - Universidad de Virginia</h2>
+  </div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
