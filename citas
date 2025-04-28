@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #232D4B;
+            color: white;
+            width: 100%;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+
+        main {
+            margin: 2rem;
+            width: 90%;
+            max-width: 800px;
+        }
+
+        h1 {
+            color: #232D4B;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+        }
+
+        ul li a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Citas</h1>
+</header>
+
+<main>
+    <ul>
+        <li><a href="https://apnews.com/article/flash-floods-spain-valencia-climate-change-30c6ef59ddf27598c691c89d0ba41442" target="_blank">Página de inicio - AP News: Inundaciones en Valencia</a></li>
+    </ul>
+</main>
+
+</body>
+</html>
