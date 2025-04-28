@@ -3,98 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Citas</title>
+  <title>La Crisis Climática en España</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f8f9fa;
+    body, html {
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header {
-      background-color: #232D4B;
+      height: 100%;
+      overflow-x: hidden;
+      font-family: 'Arial', sans-serif;
       color: white;
-      width: 100%;
-      padding: 1.5rem 0;
-      text-align: center;
+      background: url('front page of span 2020 proyecto webpage.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
 
-    header h1 {
+    .logo-wrapper {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .logo-wrapper h1 {
+      font-size: 4.5rem;
+      font-weight: 400;
+      color: white;
+      background: none;
+      padding: 0;
       margin: 0;
-      font-size: 2rem;
+      letter-spacing: 3px;
+      text-shadow: 
+        -2px -2px 0 #000,  
+        2px -2px 0 #000,  
+        -2px 2px 0 #000,  
+        2px 2px 0 #000,
+        0px 0px 6px #000;
     }
 
-    header a {
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 2rem 1rem;
+      padding: 0 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #FFD700;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0.6rem 1rem;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+      text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,  
+        1px 1px 0 #000;
+    }
+
+    nav ul li a:hover {
       color: white;
-      text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: #FFD700;
+      transform: scale(1.08);
     }
 
-    header a:hover {
-      text-decoration: underline;
+    .final-heading {
+      display: flex;
+      justify-content: center;
+      margin: 4rem 2rem 2rem 2rem;
     }
 
-    main {
-      margin: 2rem;
-      width: 90%;
-      max-width: 800px;
+    .final-heading h2 {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      border-radius: 20px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: white;
+      margin: 0;
+      max-width: 900px;
       text-align: center;
-    }
-
-    img {
-      width: 80%;
-      max-width: 500px;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* nice soft shadow */
-    }
-
-    h2 {
-      color: #232D4B;
-      margin-bottom: 2rem;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 2rem;
-      text-align: left;
-    }
-
-    ul li {
-      margin-bottom: 1rem;
-    }
-
-    ul li a {
-      color: #0056b3;
-      text-decoration: none;
-    }
-
-    ul li a:hover {
-      text-decoration: underline;
+      letter-spacing: 1px;
+      line-height: 1.6;
+      text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,  
+        1px 1px 0 #000;
     }
   </style>
 </head>
 
 <body>
+  <!-- Main Title -->
+  <div class="logo-wrapper">
+    <h1>La Crisis Climática en España</h1>
+  </div>
 
-<header>
-  <h1><a href="index.html">La Crisis Climática en España</a></h1>
-</header>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="la-introduccion.html">La Introducción</a></li>
+      <li><a href="a2-las-inundaciones-en-valencia.html">Inundaciones en Valencia</a></li>
+      <li><a href="a3-las-sequias-en-el-sur-y-sureste.html">Sequías del Sur</a></li>
+      <li><a href="a4-las-olas-de-calor.html">Olas de Calor</a></li>
+      <li><a href="a5-la-contaminacion-del-agua.html">Contaminación del Agua</a></li>
+      <li><a href="a6-el-podcast.html">Podcast</a></li>
+      <li><a href="citas.html">Citas</a></li>
+    </ul>
+  </nav>
 
-<main>
-  <img src="works cited span 2020 pic.png" alt="Imagen de Citas">
-  
-  <h2>Citas</h2>
+  <!-- Final Paragraph with Box -->
+  <div class="final-heading">
+    <h2>Esta página web fue creada para mi proyecto de la clase SPAN2020 en la Universidad de Virginia. El tema que elegí investigar, presentar y hablar es la crisis climática en España. Durante la última década, España ha sufrido muchos problemas relacionados con el clima, causados principalmente por los seres humanos. Este sitio web es un trabajo del que estoy muy orgulloso. El medio ambiente es algo que me importa mucho, y espero poder cuidarlo para que las futuras generaciones también puedan disfrutarlo como yo lo hice. Te animo a que leas cada sección y escuches el pódcast. ¡Espero que lo disfrutes! - Vinay Yerramsetti</h2>
+  </div>
 
-  <ul>
-    <li><a href="https://apnews.com/article/flash-floods-spain-valencia-climate-change-30c6ef59ddf27598c691c89d0ba41442" target="_blank">Página de inicio - AP News: Inundaciones en Valencia</a></li>
-  </ul>
-</main>
-
+  <script src="script.js"></script>
 </body>
 </html>
+
 
